@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="about.css" rel="stylesheet">
+</head>
+<body>
+
+    <a href="index.html" class="back" aria-expanded="false" aria-controls="primary-nav">Back</a>
+    <!-- القسم العلوي والصورة -->
+    <header>
+        <!-- ضع رابط صورتك الشخصية مكان الرابط الافتراضي بالأسفل -->
+        <img src="/Pics/Me.webp" alt="صورتي الشخصية" class="profile-img" id="profileImg">
+        <h1>Youssef Mortada Abd El-Aleem Mohammed </h1>
+        <p>Army Officer/Web Developer</p>
+    </header>
+
+    <div class="container">
+        <section class="card">
+            <h2>نبذة عنى</h2>
+            <p>
+                مرحباً! أنا <strong>يوسف مرتضى </strong>، أعيش في <strong>القاهرة</strong>. أمتلك شغفاً كبيراً بـ <strong>تطوير الويب ومصمم واجهات المستخدم</strong>، وأسعى دائماً لتطوير مهاراتي وبناء مشاريع ذات قيمة حقيقية. أؤمن بأن التعلم المستمر هو مفتاح النجاح في عالمنا المتغير.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>مهاراتي واهتماماتي</h2>
+            <p>خلال رحلتي التعليمية والعملية، اكتسبت خبرة في عدة مجالات من أبرزها:</p>
+            <div class="skills-list">
+                <span class="skill-tag">English C1</span>
+                <span class="skill-tag">HTML/CSS</span>
+                <span class="skill-tag">Driving</span>
+                <span class="skill-tag">Swimming</span>
+                <span class="skill-tag">Comedy</span>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>الخلفية التعليمية والعملية</h2>
+            <p><strong>• نقيب بالقوات المسلحة:</strong> الكلية الحربية د/112.</p>
+        </section>
+
+        <section class="card">
+            <h2>تواصل معي</h2>
+            <div class="social-links">
+                <a href="mailto:Youssef.mortada022@gmail.com" class="social-btn">البريد الإلكتروني</a>
+                <a href="https://www.facebook.com/youssef.mortada2" target="_blank" class="social-btn">Facebook</a>
+                <a href="https://wa.me/+201069628935" target="_blank" class="social-btn">WhatsApp</a>
+                
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 - Pompoo</p>
+    </footer>
+    <!-- نافذة عرض الصورة بملء الشاشة -->
+<div id="imageModal" class="lightbox-modal">
+    <span class="close-btn" id="closeModal">&times;</span>
+    <img class="lightbox-content" id="fullImg" alt="الصورة الشخصية مكبرة">
+</div>
+<script src="about.js"></script>
+</body>
+</html>
